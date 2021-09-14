@@ -1622,6 +1622,33 @@
   grid-template-rows: auto auto;
 }
 
+.button-10 {
+  width: 55px;
+  height: 55px;
+  background-color: transparent;
+  background-image: url('../images/pngwing.com.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.button-10-copy {
+  width: 55px;
+  height: 55px;
+  background-color: transparent;
+  background-image: url('../images/pngwing.com.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.button-10-copy-copy {
+  width: 55px;
+  height: 55px;
+  background-color: transparent;
+  background-image: url('../images/pngwing.com.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-items {
     background-color: #fff;
