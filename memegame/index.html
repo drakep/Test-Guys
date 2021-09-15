@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body>
+  <body style="background: black;">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -29,10 +29,10 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Builds.asm.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Builds.data.gz",
-        frameworkUrl: buildUrl + "/Builds.asm.framework.js.gz",
-        codeUrl: buildUrl + "/Builds.asm.js.gz",
-        memoryUrl: buildUrl + "/Builds.asm.mem.gz",
+        dataUrl: buildUrl + "/Builds.data",
+        frameworkUrl: buildUrl + "/Builds.asm.framework.js",
+        codeUrl: buildUrl + "/Builds.asm.js",
+        memoryUrl: buildUrl + "/Builds.asm.mem",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Test Guys SS",
